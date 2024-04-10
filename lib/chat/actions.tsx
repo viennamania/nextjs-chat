@@ -170,6 +170,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
         name: message.name
       }))
     ],
+
     text: ({ content, done, delta }) => {
       if (!textStream) {
         textStream = createStreamableValue('')
@@ -195,7 +196,9 @@ Besides that, you can also chat with users and do some calculations if needed.`
 
       return textNode
     },
+
     functions: {
+
       listStocks: {
         description: 'List three imaginary stocks that are trending.',
         parameters: z.object({
@@ -236,6 +239,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
           )
         }
       },
+
       showStockPrice: {
         description:
           'Get the current stock price of a given stock or currency. Use this to show the price to the user.',
@@ -277,6 +281,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
           )
         }
       },
+
       showStockPurchase: {
         description:
           'Show price and the UI to purchase a stock or currency. Use this if the user wants to purchase a stock or currency.',
@@ -341,6 +346,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
           )
         }
       },
+
       getEvents: {
         description:
           'List funny imaginary events between user highlighted dates that describe stock activity.',
@@ -384,7 +390,9 @@ Besides that, you can also chat with users and do some calculations if needed.`
           )
         }
       }
+
     }
+    
   })
 
   return {

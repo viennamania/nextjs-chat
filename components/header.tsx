@@ -55,6 +55,7 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
+      {/*
       <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
@@ -75,6 +76,7 @@ export function Header() {
           <span className="sm:hidden">Deploy</span>
         </a>
       </div>
+      */}
     </header>
   )
 }
