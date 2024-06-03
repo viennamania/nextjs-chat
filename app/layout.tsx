@@ -8,6 +8,12 @@ import { Providers } from '@/components/providers'
 import { Header } from '@/components/header'
 import { Toaster } from '@/components/ui/sonner'
 
+
+import { DeepgramContextProvider } from "../context/DeepgramContextProvider";
+import { MicrophoneContextProvider } from "../context/MicrophoneContextProvider";
+
+
+
 export const metadata = {
   metadataBase: process.env.VERCEL_URL
     ? new URL(`https://${process.env.VERCEL_URL}`)
@@ -54,7 +60,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <div className="flex flex-col min-h-screen">
             <Header />
-            <main className="flex flex-col flex-1 bg-muted/50">{children}</main>
+            <main className="flex flex-col flex-1 bg-muted/50">
+              {/*children*/}
+
+              <MicrophoneContextProvider>
+                <DeepgramContextProvider>
+                  {children}
+                </DeepgramContextProvider>
+              </MicrophoneContextProvider>
+
+
+            </main>
           </div>
           <TailwindIndicator />
         </Providers>
