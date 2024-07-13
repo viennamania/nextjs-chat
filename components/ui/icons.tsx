@@ -88,6 +88,7 @@ function IconNextChat({
   )
 }
 
+/*
 function IconOpenAI({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <svg
@@ -103,6 +104,32 @@ function IconOpenAI({ className, ...props }: React.ComponentProps<'svg'>) {
     </svg>
   )
 }
+*/
+
+// IconOpenAI is png file
+
+
+function IconOpenAI({ className, ...props }: React.ComponentProps<'svg'>) {
+  return (
+    <svg version="1.1" viewBox="0 0 800 800" width="1280" height="1280" xmlns="http://www.w3.org/2000/svg">
+    <path transform="translate(0)" d="m0 0h800v800h-800z" fill="#FEFEFE"/>
+    <path transform="translate(190,439)" d="m0 0h25l20 1 13 3 10 6 6 8 3 7v19l-4 10-8 8-10 5-12 2h-24l-1 36h-27v-104z" fill="#020202"/>
+    <path transform="translate(299,464)" d="m0 0h26l12 3 9 6 6 9 2 8v52l-1 2h-24l-1-1v-9l-5 3-5 4-5 2-16 1-10-3-7-5-5-9-1-4v-10l3-9 5-5 7-4 12-3 27-1-3-7-9-3h-11l-12 2-10 4-3-1v-18l6-2z" fill="#020202"/>
+    <path transform="translate(556,312)" d="m0 0h25l12 3 9 6 6 9 2 8v52l-1 2h-24l-1-1v-9l-5 3-8 5-10 2h-8l-9-3-6-4-6-7-2-7v-11l3-8 8-7 11-4 21-2h11l-2-6-5-3-5-1h-11l-12 2-10 4-3-1 1-18 5-2z" fill="#020202"/>
+    <path transform="translate(450,435)" d="m0 0h22l1 1 1 55 5-4 5-6 8-7 7-7 2-3h29l-2 4-16 15-12 12-5 4 1 4 10 10 7 8 11 11 6 7 3 3v2h-29l-14-14-7-8-10-10v32h-25v-108z" fill="#020202"/>
+    <path transform="translate(260,312)" d="m0 0h18l13 4 9 7 7 10 3 9 1 8v9l-1 1h-58l3 7 4 5 5 2h19l21-5h4l-1 18-8 3-19 2h-16l-14-3-8-4-9-8-5-10-2-8v-15l3-10 6-9 8-7 8-4z" fill="#020202"/>
+    <path transform="translate(434,311)" d="m0 0 23 1 1 2v8l10-7 8-3h14l10 4 7 8 3 8 1 4v56h-25l-1-9v-29l-1-14-1-5-7-2-9 1-5 5-3 5-1 4-1 44h-25v-80z" fill="#020202"/>
+    <path transform="translate(334,311)" d="m0 0 23 1 1 2v8l10-7 8-3h14l9 4 6 5 4 7 2 8v55l-1 1h-24l-1-9v-29l-1-14-1-5-7-2-9 1-5 5-3 5-1 4-1 44h-25v-80z" fill="#020202"/>
+    <path transform="translate(181,288)" d="m0 0h27v102l-4 13-9 10-8 4-14 3h-13l-1-1v-12l1-7 13-3 5-4 2-6z" fill="#020202"/>
+    <path transform="translate(381,463)" d="m0 0 24 1 1 13 7-7 10-5 10-2h5l1 1v23l-11-2-11 1-7 6-4 10-1 42h-25v-80z" fill="#020202"/>
+    <path transform="translate(209,460)" d="m0 0h13l9 1 6 4 2 3v11l-6 7-3 1-11 1h-10l-1-1v-24z" fill="#FEFEFE"/>
+    <path transform="translate(313,508)" d="m0 0h15v7l-3 6-6 5-2 1h-12l-5-5v-8l6-5z" fill="#FEFEFE"/>
+    <path transform="translate(570,356)" d="m0 0h14v7l-3 6-6 5-2 1h-12l-5-5v-8l4-4z" fill="#FEFEFE"/>
+    <path transform="translate(266,328)" d="m0 0 10 1 7 6 2 8h-33l1-5 6-7z" fill="#FEFEFE"/>
+    </svg>
+  )
+}
+
 
 function IconVercel({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
