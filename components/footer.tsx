@@ -22,7 +22,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       .
     */}
 
-      famnote © 2024
+      Jenna Park © 2024
     </p>
   
   )

@@ -48,6 +48,9 @@ async function UserOrLogin() {
       <div className="flex items-center">
         <IconSeparator className="size-6 text-muted-foreground/50" />
         <Button variant="link" asChild className="-ml-2">
+          <Link href="/">Home</Link>
+        </Button>
+        <Button variant="link" asChild className="-ml-2">
           <Link href="/deepgram">Transcription</Link>
         </Button>
       </div>
