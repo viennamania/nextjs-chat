@@ -213,6 +213,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
       return textNode
     },
 
+    /*
     functions: {
 
       listStocks: {
@@ -408,6 +409,7 @@ Besides that, you can also chat with users and do some calculations if needed.`
       }
 
     }
+    */
     
   })
 
